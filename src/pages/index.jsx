@@ -1,4 +1,4 @@
-import MovieList from "./MovieList";
+ import MovieList from "./movieList";
 import MovieDetails from "./MovieDetails";
 import Search from "./Search";
 import PageNotFound from "./PageNotFound";
