@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { options } from "../hook/Option";
- import BackUpImage from "../assets/BackUpImage.jpg"
+import backup from "../assets/backup.jpg"
 
 
 const MovieDetails = () => {
@@ -44,7 +44,7 @@ const MovieDetails = () => {
 
   const posterImage = poster_path
     ? `https://image.tmdb.org/t/p/w500/${poster_path}`
-    : BackUpImage;
+    : backup;
 
   const backdropImage = backdrop_path
     ? `https://image.tmdb.org/t/p/original/${backdrop_path}`
