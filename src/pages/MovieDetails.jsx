@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { options } from "../hook/Option";
-import BackUpImage from "../assets/BackUpImage.jpg";
+ import BackUpImage from "../assets/BackUpImage.jpg"
 
 
 const MovieDetails = () => {
